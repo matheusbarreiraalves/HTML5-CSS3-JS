@@ -1,0 +1,208 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-image: url("../img/Fundo-restaurante.jpg");
+  background-position: 100px -450px;
+  height: 500px;
+  width: 20;
+  transition: ease 2s;
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  text-align: center;
+  font-family: "Ubuntu";
+  font-size: 40pt;
+  padding-top: 200px;
+}
+
+nav ul li {
+  display: inline-block;
+  border: 1px solid white;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+nav {
+  text-align: center;
+  margin-top: 100px;
+  background-color: rgba(3, 2, 2, 0.4);
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+nav ul li a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: "ubuntu";
+  font-weight: bolder;
+}
+
+nav ul li a:hover {
+  text-decoration-skip: bolder;
+  color: rgb(12, 3, 3);
+  padding-left: 10px;
+  color: rgb(253, 166, 5);
+}
+
+footer {
+  background-color: rgb(211, 139, 6);
+  text-align: center;
+  color: rgb(14, 10, 10);
+  font-family: "ubuntu";
+  padding-top: 20px;
+}
+
+div ul li {
+  display: inline-block;
+  margin-left: 30px;
+  margin-right: 30px;
+  padding-bottom: 20px;
+}
+
+div a {
+  color: rgb(0, 0, 0);
+  text-decoration-style: bolder;
+}
+
+main {
+  padding: 20px;
+  text-align: center;
+  font-family: "ubuntu";
+}
+
+h2 {
+  font-family: "ubuntu";
+  color: rgb(211, 139, 6);
+  font-size: 20pt;
+  border-bottom: 4px solid rgb(211, 139, 6);
+  padding-left: 610px;
+  margin-bottom: 20px;
+}
+
+h5 {
+  font-family: "ubuntu";
+  color: rgb(211, 139, 6);
+  font-size: 30pt;
+  border-bottom: 4px solid rgb(211, 139, 6);
+  margin-bottom: 15px;
+}
+
+p {
+  padding-left: 100px;
+  padding-right: 100px;
+  text-align: justify;
+  line-height: 20px;
+  margin-bottom: 20px;
+  font-family: "ubuntu";
+  font-size: 13pt;
+}
+
+h3 {
+  font-family: "ubuntu";
+  color: rgb(211, 139, 6);
+  font-size: 20pt;
+  border-bottom: 4px solid rgb(211, 139, 6);
+  padding-left: 760px;
+  margin-bottom: 20px;
+}
+
+h4 {
+  font-family: "ubuntu";
+  color: rgb(211, 139, 6);
+  font-size: 20pt;
+  border-bottom: 4px solid rgb(211, 139, 6);
+  margin-bottom: 20px;
+}
+h6 {
+  padding-right: 1000px;
+  font-size: 15pt;
+  font-family: "ubuntu";
+  text-decoration-line: underline;
+}
+#home {
+  text-align: center;
+}
+
+#home img {
+  height: 400px;
+  margin: 50px;
+  opacity: 0.9;
+  border-radius: 10%;
+  transition: ease 0.5s;
+  text-shadow: 10px 10px #000000;
+}
+
+#home img:hover {
+  opacity: 1;
+  transform: scale(1.4);
+  cursor: pointer;
+}
+
+#orestaurante {
+  text-align: center;
+}
+
+#orestaurante img {
+  text-align: center;
+}
+
+#sobrenos img {
+  height: 350px;
+  margin: 30px;
+  opacity: 0.6;
+  border-bottom-right-radius: 30%;
+  transition: ease 0.5s;
+  border-top-left-radius: 30%;
+}
+
+#sobrenos img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#restaurante iframe {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#container {
+  display: inline-block;
+}
+
+#linha {
+  display: table;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#imagem img {
+  width: 180px;
+  height: 180px;
+  opacity: 0.6;
+  border-radius: 80%;
+  transition: ease 0.5s;
+  margin-top: 40px;
+}
+#imagem img:hover {
+  opacity: 1;
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+#imagem {
+  width: 200px;
+  height: 200px;
+  float: left;
+}
+
+#texto {
+  padding-right: 20px;
+  width: 70%;
+  float: inline-start;
+}
