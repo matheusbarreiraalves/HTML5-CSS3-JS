@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>cafeteria</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans|PT+Serif|Ubuntu&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/cafeteria.css" />
+  </head>
+  <body>
+    <!-- 
+        Criação da área do cabeçalho da página com os seguintes elementos:
+        imagem de fundo;
+        título da cafeteria;
+        barra de navegação
+    -->
+    <header>
+      <h1>Ximira e Peixola Café</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html"> Home </a></li>
+          <li><a href="acafeteria.html"> A cafeteria </a></li>
+          <li><a href="cardapio.html"> Cardápio </a></li>
+          <li><a href="contato.html"> Contato </a></li>
+          <li><a href="localizacao.html"> Localização </a></li>
+        </ul>
+      </nav>
+    </header>
+    <!-- A estrutura da área main fica reservada ao conteúdo das páginas específicas  -->
+    <main>
+      <!-- início da div container -->
+      <div id="container">
+        <h3>Cafés</h3>
+
+        <!-- início da div linha -->
+        <div id="linha">
+          <!-- início da div imagem -->
+          <div id="imagem">
+            <img src="img/cafe12.jpg" alt="Café Ximira" />
+          </div>
+          <!--fim da div imagem-->
+
+          <!-- Início da div texto -->
+          <div id="texto">
+            <h3>Café Ximira</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit,
+              blanditiis repellat, tenetur itaque aliquid fuga aspernatur nisi
+              necessitatibus rem reiciendis fugit veniam sapiente neque quos
+              tempore ducimus non facilis impedit.
+            </p>
+            <p id="preco">R$ 6,50</p>
+          </div>
+          <!--fim da div texto-->
+        </div>
+        <!--fim da div linha-->
+
+        <!-- início da div linha -->
+        <div id="linha">
+          <!-- início da div imagem -->
+          <div id="imagem">
+            <img src="img/cafe10.jpg" alt="Café Peixola" />
+          </div>
+          <!--fim da div imagem-->
+
+          <!-- Início da div texto -->
+          <div id="texto">
+            <h3>Café Peixola</h3>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sit,
+              blanditiis repellat, tenetur itaque aliquid fuga aspernatur nisi
+              necessitatibus rem reiciendis fugit tempore ducimus non facilis
+              impedit.
+            </p>
+            <p id="preco">R$ 4,00</p>
+          </div>
+          <!--fim da div texto-->
+        </div>
+        <!--fim da div linha-->
+      </div>
+      <!--fim da div container-->
+    </main>
+
+    <!-- 
+      criação da área do rodapé com o comando footer. Esta área se destina
+      a exbição do endereço e-mail telefone e redes sociais
+     -->
+    <footer>
+      <div id="contato"></div>
+      Av. Doutor Machado Oliveira Amargo, 1945 - Vila Berlim - São Paulo - SP
+      <br />
+      <a href="mailto:contato@cafeteriaCleito.com.br"
+        >contato@cafeteriacleitocafe.com.br</a
+      ><br />
+      Tel:11 - 4002 - 8922 | 5083 - 1192 >
+      <div id="redes">
+        <ul>
+          <li>
+            <a href="http://www.facebook.com" target="_blank">
+              <img src="img/facebook.png" alt="Rede Social facebook" />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.instagram.com" target="_blank">
+              <img src="img/instagram.png" alt="Rede Social instagram" />
+            </a>
+          </li>
+          <li>
+            <a href="http://www.twitter.com" target="_blank">
+              <img src="img/twitter.png" alt="_blank" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </body>
+</html>
