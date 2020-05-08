@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="img/logo1.png" alt="Grand Hotel" class="logo" />
+      </h1>
+
+      <!-- barra de navegação do site-->
+      <nav>
+        <div class="nav-wrapper red darken-4" style="text-align: left;">
+          <a href="index.html" class="brand-logo">Grand Hotel</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="gastronomia.html">Gastronomia</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--fim da barra de navegação-->
+
+      <!--inicio do painel-->
+      <img src="img/painel2.jpg" alt="entrada do hotel" class="painel" />
+    </header>
+
+    <main>
+      <h2>Faça a sua Reserva aqui</h2>
+      <hr />
+      <!-- ### inicio da area do formulário-->
+
+      <div class="row">
+        <!--inicio do formmulario-->
+        <form class="col s12">
+          <!--Primeira linha do formulário-->
+          <div class="row">
+            <div class="input-field col s6">
+              <i class="material-icons prefix">account_circle</i>
+              <input id="nome_completo" type="text" class="validate" />
+              <label for="nome_completo">Nome Completo</label>
+            </div>
+
+            <div class="input-field col s6">
+              <i class="material-icons prefix">email</i>
+              <input id="email" type="text" class="validate" />
+              <label for="email">E-mail</label>
+            </div>
+            <!--fim da 1° linha do formulario -->
+          </div>
+
+          <!--2° linha do formulário-->
+          <div class="row">
+            <div class="input-field col s3">
+              <i class="material-icons prefix">local_phone</i>
+              <input id="telefone" type="tel" class="validate" />
+              <label for="telefone">Telefone</label>
+            </div>
+
+            <div class="input-field col s3">
+              <i class="material-icons prefix">folder_shared</i>
+              <input id="cpf" type="text" class="validate" />
+              <label for="cpf">CPF</label>
+            </div>
+
+            <div class="input-field col s3">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" class="datepicker" />
+              <label for="data_nascimento">Data de Nascimento</label>
+            </div>
+
+            <div class="input-field col s3">
+              <i class="material-icons prefix">people</i>
+              <label>Sexo</label>
+              <label id="sex_masculino">
+                <input name="sexo" type="radio" value="M" />
+                <span>Masculino</span>
+              </label>
+
+              <label id="sex_feminino">
+                <input name="sexo" type="radio" value="F" />
+                <span>Feminino</span>
+              </label>
+            </div>
+
+            <!--fim da 2° linha do formulario -->
+          </div>
+
+          <hr />
+
+          <!--3° linha do formulário-->
+          <div class="row">
+            <div class="input-field col s4">
+              <i class="material-icons prefix">hotel1</i>
+              <select class="icons">
+                <option value="" disabled selected>Escolha sua Suite</option>
+                <option value="" data-icon="img/suite1.jpg"
+                  >Suite Simple</option
+                >
+                <option value="" data-icon="img/suite2.jpg"
+                  >Suite Double</option
+                >
+                <option value="" data-icon="img/suite3.jpg"
+                  >Suite Master</option
+                >
+              </select>
+              <label>Selecione a Suite</label>
+            </div>
+
+            <div class="input-field col s4">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" class="datepicker" />
+              <label for="check_in">Data de Check-In</label>
+            </div>
+
+            <div class="input-field col s4">
+              <i class="material-icons prefix">date_range</i>
+              <input type="text" class="datepicker" />
+              <label for="check_out">Data de Check-Out</label>
+            </div>
+            <!--fim da 3° linha do formulario -->
+          </div>
+          <hr />
+
+          <button
+            class="btn waves-effect waves-light"
+            type="submit"
+            name="action"
+          >
+            Enviar
+            <i class="material-icons right">send</i>
+          </button>
+
+          <!--fim do formulário-->
+        </form>
+      </div>
+
+      <!-- ### fim da area do formulário-->
+    </main>
+
+    <footer></footer>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".datepicker").datepicker();
+      });
+      //inicio codigo JS para suites//
+      $(document).ready(function () {
+        $("select").formSelect();
+      });
+    </script>
+  </body>
+</html>

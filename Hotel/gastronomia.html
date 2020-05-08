@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="img/logo1.png" alt="Grand Hotel" class="logo" />
+      </h1>
+
+      <!-- barra de navegação do site-->
+      <nav>
+        <div class="nav-wrapper red darken-4" style="text-align: left;">
+          <a href="index.html" class="brand-logo">Grand Hotel</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="gastronomia.html">Gastronomia</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--fim da barra de navegação-->
+
+      <!--inicio do painel-->
+      <img src="img/painel2.jpg" alt="entrada do hotel" class="painel" />
+    </header>
+
+    <main>
+      <hr />
+      <h3>Cárdapio Disponivel:</h3>
+      <hr />
+      <!--Começo carrosel da página-->
+
+      <div class="carousel carousel-slider center">
+        <div class="carousel-fixed-item center">
+          <a class="btn waves-effect white grey-text darken-text-2"
+            >Veja Mais!</a
+          >
+        </div>
+        <div class="carousel-item red dark-text" href="#one!">
+          <h2>Pratos Principais</h2>
+          <p class="white-text"><img src="img/comida1.jpg" alt="1°" /></p>
+        </div>
+        <div class="carousel-item amber white-text" href="#two!">
+          <h2>Sobremesas</h2>
+          <p class="white-text"><img src="img/comida2.jpg" alt="2°" /></p>
+        </div>
+        <div class="carousel-item green white-text" href="#three!">
+          <h2>Bebidas</h2>
+          <p class="white-text"><img src="img/comida3.jpg" alt="3°" /></p>
+        </div>
+        <div class="carousel-item blue white-text" href="#four!">
+          <h2>Churrascos</h2>
+          <p class="white-text"><img src="img/comida4.jpg" alt="4°" /></p>
+        </div>
+      </div>
+      <!--Final carrosle da página-->
+    </main>
+
+    <footer>
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+    </footer>
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(".carousel.carousel-slider").carousel({
+        fullWidth: true,
+        indicators: true,
+      });
+    </script>
+  </body>
+</html>

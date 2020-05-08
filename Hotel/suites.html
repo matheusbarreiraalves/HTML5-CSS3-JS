@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- Compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
+    />
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>
+        <img src="img/logo1.png" alt="Grand Hotel" class="logo" />
+      </h1>
+
+      <!-- barra de navegação do site-->
+      <nav>
+        <div class="nav-wrapper red darken-4" style="text-align: left;">
+          <a href="index.html" class="brand-logo">Grand Hotel</a>
+          <ul id="nav-mobile" class="right hide-on-med-and-down">
+            <li><a href="hotel.html">Hotel</a></li>
+            <li><a href="suites.html">Suites</a></li>
+            <li><a href="gastronomia.html">Gastronomia</a></li>
+            <li><a href="reservas.html">Reservas</a></li>
+            <li><a href="localizacao.html">Localização</a></li>
+          </ul>
+        </div>
+      </nav>
+      <!--fim da barra de navegação-->
+
+      <!--inicio do painel-->
+      <img src="img/painel2.jpg" alt="entrada do hotel" class="painel" />
+    </header>
+
+    <main>
+      <h2>Suites</h2>
+      <hr />
+      <p>
+        <span
+          >Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi quo
+          odit nobis, blanditiis pariatur assumenda ullam vero labore in esse,
+          ratione architecto! Dolorum natus labore odio nisi ducimus, blanditiis
+          eius.</span
+        >
+        <span
+          >Consequatur officia enim laboriosam dolorum harum sunt ducimus
+          mollitia porro cumque itaque esse, aut fugit quae fugiat officiis,
+          consequuntur laborum perferendis facilis. Eius, exercitationem!
+          Quibusdam perspiciatis maxime deserunt error magni!</span
+        >
+        <span
+          >Optio consequuntur nulla amet eos explicabo ducimus incidunt vel in
+          ea, iure, cumque eveniet voluptatem molestiae commodi, dignissimos
+          harum at obcaecati nostrum nihil ab deserunt quia placeat deleniti id!
+          Ducimus!</span
+        >
+      </p>
+
+      <hr />
+      <!-- Inicio dos cards-->
+      <div class="row">
+        <!--Inicio da linha-->
+        <div class="col s12 m6">
+          <h2 class="header">Suite Master</h2>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="img/suite1.jpg" class="modal-trigger" href="#modal1" />
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt itaque neque, perferendis atque, quod ipsam deserunt
+                  quas expedita temporibus pariatur, in suscipit cumque cum!
+                  Error culpa quo temporibus cumque consectetur.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="reservas.html">Reservar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col s12 m6">
+          <h2 class="header">Suite Double</h2>
+          <div class="card horizontal">
+            <div class="card-image">
+              <img src="img/suite2.jpg" class="modal-trigger" href="#modal2" />
+            </div>
+            <div class="card-stacked">
+              <div class="card-content">
+                <p>
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  Nesciunt itaque neque, perferendis atque, quod ipsam deserunt
+                  quas expedita temporibus pariatur, in suscipit cumque cum!
+                  Error culpa quo temporibus cumque consectetur.
+                </p>
+              </div>
+              <div class="card-action">
+                <a href="reservas.html">Reservar</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--fim da linha-->
+    </main>
+
+    <!-- ############## Área dos Modais ###########################-->
+    <!-- Modal Structure -->
+    <div id="modal1" class="modal">
+      <div class="modal-content">
+        <h4>Suite Master</h4>
+        <img src="img/suite1.jpg" />
+      </div>
+      <div class="modal-footer">
+        <a
+          href="reservas.html"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Reservar</a
+        >
+      </div>
+    </div>
+
+    <!-- Modal Structure -->
+    <div id="modal2" class="modal">
+      <div class="modal-content">
+        <h4>Suite Double</h4>
+        <img src="img/suite2.jpg" />
+      </div>
+      <div class="modal-footer">
+        <a
+          href="reservas.html"
+          class="modal-close waves-effect waves-green btn-flat"
+          >Reservar</a
+        >
+      </div>
+    </div>
+
+    <footer></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script>
+      $(document).ready(function () {
+        $(".modal").modal();
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,26 @@
+header {
+  text-align: center;
+}
+header .logo {
+  width: 10%;
+  height: auto;
+}
+header .painel {
+  width: 100%;
+}
+#modal1 img,
+#modal2 img {
+  width: 100%;
+  height: 400px;
+}
+.card-image img {
+  cursor: pointer;
+}
+#sex_masculino,
+#sex_feminino {
+  margin-left: 120px;
+  position: relative;
+}
+h3 {
+  font-family: monospace;
+}
