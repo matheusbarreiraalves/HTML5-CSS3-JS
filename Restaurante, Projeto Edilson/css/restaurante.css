@@ -1,0 +1,76 @@
+header img {
+  width: 15%;
+  height: auto;
+}
+
+header {
+  text-align: center;
+  background-position: 0 -400px;
+  background-size: 100%;
+}
+
+footer .card-header {
+  background-color: rgb(50, 50, 50);
+  color: white;
+  text-align: center;
+  font-size: 15pt;
+}
+
+footer .card-body {
+  background-color: rgb(100, 100, 100);
+  color: white;
+  text-align: center;
+}
+
+#home1 {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+#home2 {
+  background-color: rgb(255, 255, 255);
+  padding: 40px;
+  margin-bottom: 50px;
+  text-align: justify;
+}
+
+#imgHome {
+  text-align: center;
+}
+
+#imgHome img {
+  width: 600px;
+  height: 350px;
+  margin: 0 10px;
+  transition: ease 1s;
+  opacity: 90%;
+}
+
+#imgHome img:hover {
+  border-radius: 30%;
+  opacity: 100%;
+  cursor: pointer;
+}
+
+#imgLazer img {
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+#imgLazer {
+  text-align: center;
+}
+
+#imgLazer img:hover {
+  opacity: 80%;
+}
+h1,
+h2 {
+  color: white;
+  text-align: center;
+}

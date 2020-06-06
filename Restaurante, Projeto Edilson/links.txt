@@ -1,0 +1,11 @@
+texto de apresentação                   link
+home                                    index.html
+acomodação                              acomodacao.html
+    suite standard                      suitestandard.html
+    suite double                        suitedouble.html
+    suite master                        suitemaster.html
+lazer                                   lazer.html
+gastronomia                             gastronomia.html
+eventos                                 eventos.html
+reservas                                reservas.html
+localização                             localizacao.html
