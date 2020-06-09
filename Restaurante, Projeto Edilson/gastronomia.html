@@ -11,7 +11,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
     />
-    <!-- CSS boostrap -->
+
+    <link
+      type="text/css"
+      rel="stylesheet"
+      href="css/materialize.min.css"
+      media="screen,projection"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- CSS de origem boostrap -->
     <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
@@ -20,6 +29,8 @@
     />
     <link rel="stylesheet" href="css/restaurante.css" />
 
+    <!-- Este css é exibido, ou seja, executado somente 
+    nesta página, pois ele foi embutido(embed) -->
     <style>
       body {
         background-image: url("img/momentos3.jpg");
@@ -35,425 +46,67 @@
     </style>
   </head>
   <body>
-    <!--########### Início da barra de navegação ###########  -->
+   <!--########### Início da barra de navegação ###########  -->
 
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <button
+      class="navbar-toggler"
+      type="button"
+      data-toggle="collapse"
+      data-target="#navbarSupportedContent"
+      aria-controls="navbarSupportedContent"
+      aria-expanded="false"
+      aria-label="Toggle navigation"
+    >
+      <span class="navbar-toggler-icon"></span>
+    </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav mr-auto">
-          <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
-          </li>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Home</a>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="gastronomia.html">Gastronomia</a>
-          </li>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="eventos.html">Eventos</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="gastronomia.html">Gastronomia</a>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="reservas.html">Reservas</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link" href="eventos.html">Eventos</a>
+        </li>
 
-          <li class="nav-item">
-            <a class="nav-link" href="localizacao.html">Localização</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
+        <li class="nav-item">
+          <a class="nav-link" href="reservas.html">Reservas</a>
+        </li>
 
-    <!--########## Fim da barra de navegação ##########  -->
+        <li class="nav-item">
+          <a class="nav-link" href="localizacao.html">Localização</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
-    <header>
-      <li>
-        <a href="index.html" target="_blank">
-          <img src="img/jantar.png" alt="Logo" />
-        </a>
-      </li>
-      <h1>Nosso Cárdapio</h1>
-    </header>
+  <!--########## Fim da barra de navegação ##########  -->
+
+
 
     <main>
-      <div class="container-fluid">
-        <br/>
-        <br/>
-        
-       
-        <p>&nbsp;</p>
-        <!-- Início das imagens em miniatura// Refeições completas -->
-      <!-- inicio da div##################### container ############## -->
-      <div id="container">
-        <br>
-<h2>Refeições Completas:</h2>
-<br>
-        <!-- inicio da div linha######## 1 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/gastronomia.jpg"  />
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Poutine</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$25.00</p>
-          </div>
-          <!--Fim da div Texto-->
-          <!--Fim da div Linha ###### 1-->
-        </div>
-          
-
-  <!-- inicio da div linha######## 2 -->
-  <div id="linha">
-    <!-- inicio da div imagem -->
-    <div id="imgLazer2">
-      <img src="img/gastronomia2.jpg"  />
+      <h2>Onde Estamos</h2>
+      <div id='mapa'>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d117021.23996965373!2d-46.62570720817481!3d-23.571541013836548!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59d5ef7498d7%3A0x3c731a4fb1094deb!2sRestaurante%20Fasano!5e0!3m2!1spt-BR!2sbr!4v1591704827622!5m2!1spt-BR!2sbr" width="1000" height="500"  frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
     </div>
-    <!--Fim da div imagem-->
-    <!-- Inicio da div Texto-->
-    <div id="texto1">
-      <h3>Mole Poblano</h3>
-      <p>
-        Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-        id ipsam laborum veritatis exercitationem possimus nostrum
-        temporibus omnis, aliquam accusantium eaque?
-      </p>
-      <p id="preco">R$38.00</p>
-    </div>
-    <!--Fim da div Texto-->
-    <!--Fim da div Linha ###### 2-->
-  </div>
-    
-
-
-      <!-- inicio da div linha######## 3 -->
-      <div id="linha">
-        <!-- inicio da div imagem -->
-        <div id="imgLazer2">
-          <img src="img/gastronomia4.jpg"  />
-        </div>
-        <!--Fim da div imagem-->
-        <!-- Inicio da div Texto-->
-        <div id="texto1">
-          <h3>Pot-au-feu</h3>
-          <p>
-            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-            Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-            id ipsam laborum veritatis exercitationem possimus nostrum
-            temporibus omnis, aliquam accusantium eaque?
-          </p>
-          <p id="preco">R$115.00</p>
-        </div>
-        <!--Fim da div Texto-->
-        <!--Fim da div Linha ###### 1-->
-      </div>
-        
-
-
-          <!-- inicio da div linha######## 1 -->
-          <div id="linha">
-            <!-- inicio da div imagem -->
-            <div id="imgLazer2">
-              <img src="img/gastronomia5.jpg"  />
-            </div>
-            <!--Fim da div imagem-->
-            <!-- Inicio da div Texto-->
-            <div id="texto1">
-              <h3>Tom Yum</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-                id ipsam laborum veritatis exercitationem possimus nostrum
-                temporibus omnis, aliquam accusantium eaque?
-              </p>
-              <p id="preco">R$120.00</p>
-            </div>
-            <!--Fim da div Texto-->
-            <!--Fim da div Linha ###### 1-->
-          </div>
-           
-
-              <!-- inicio da div linha######## 1 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/gastronomia7.jpg"  />
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Nasi Lemak</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$250.00</p>
-          </div>
-          <!--Fim da div Texto-->
-          <!--Fim da div Linha ###### 1-->
-        </div>
-          <!--Final Refeições completas-->
-        </div>
-
-          <!-- inicio da div##################### container lanches ############## -->
-      <div id="container">
-        <h2>Sobremesas:</h2>
-        <br>
-        <!-- inicio da div linha######## 1 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/sobremesa3.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Kiwi, Macarons</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$24.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 1-->
-
-        <!-- inicio da div linha######## 2 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/sobremesa1.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Panacota</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$35.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 2-->
-
-        <!-- inicio da div linha######## 3 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/sobremesa2.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3> Torta gelada de chocolate</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$42.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 3-->
-
-        <!-- inicio da div linha######## 4 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/sobremesa4.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Mousse de maracuya</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$43.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 4-->
-
-        <!-- inicio da div linha######## 5 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/sobremesa5.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Mousse de côco com chocolate</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$55.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 5-->
-        </div>
-
-        <div id="container">
-          <h2>Bebidas:</h2>
-          <br>
-              <!-- inicio da div linha######## 1 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/bebidas1.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>El Miracle Garnacha </h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$55.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 1-->
-
-            <!-- inicio da div linha######## 2 -->
-            <div id="linha">
-              <!-- inicio da div imagem -->
-              <div id="imgLazer2">
-                <img src="img/bebidas2.jpg"/>
-              </div>
-              <!--Fim da div imagem-->
-              <!-- Inicio da div Texto-->
-              <div id="texto1">
-                <h3>Whiskey</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-                  id ipsam laborum veritatis exercitationem possimus nostrum
-                  temporibus omnis, aliquam accusantium eaque?
-                </p>
-                <p id="preco">R$75.00</p>
-              </div>
-              <!--Fim da div Texto-->
-            </div>
-            <!--Fim da div Linha ###### 2-->
-
-                <!-- inicio da div linha######## 3 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/bebidas3.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3>Suco de Laranja</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$15.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 3-->
-
-            <!-- inicio da div linha######## 4 -->
-            <div id="linha">
-              <!-- inicio da div imagem -->
-              <div id="imgLazer2">
-                <img src="img/bebidas4.jpg"/>
-              </div>
-              <!--Fim da div imagem-->
-              <!-- Inicio da div Texto-->
-              <div id="texto1">
-                <h3>Milk shake Thermomix</h3>
-                <p>
-                  Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                  Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-                  id ipsam laborum veritatis exercitationem possimus nostrum
-                  temporibus omnis, aliquam accusantium eaque?
-                </p>
-                <p id="preco">R$50.00</p>
-              </div>
-              <!--Fim da div Texto-->
-            </div>
-            <!--Fim da div Linha ###### 4-->
-
-                <!-- inicio da div linha######## 5 -->
-        <div id="linha">
-          <!-- inicio da div imagem -->
-          <div id="imgLazer2">
-            <img src="img/bebidas5.jpg"/>
-          </div>
-          <!--Fim da div imagem-->
-          <!-- Inicio da div Texto-->
-          <div id="texto1">
-            <h3> Milk shake</h3>
-            <p>
-              Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-              Mollitia, ex fugiat. Quas facilis soluta officiis a optio dolorum
-              id ipsam laborum veritatis exercitationem possimus nostrum
-              temporibus omnis, aliquam accusantium eaque?
-            </p>
-            <p id="preco">R$25.00</p>
-          </div>
-          <!--Fim da div Texto-->
-        </div>
-        <!--Fim da div Linha ###### 5-->
-
     </main>
 
     <footer>
-      <!-- ############ Início do Footer ############ -->
+     <!-- ############ Início do Footer ############ -->
 
-      <footer class="page-footer">
+     <footer class="page-footer">
         <div class="container">
           <div class="row">
             <div class="col l6 s12">
+              
               <h5 class="white-text">Redes Sociais</h5>
               <li>
                 <a href="http://www.facebook.com" target="_blank">
@@ -470,50 +123,34 @@
                   <img src="img/twitter.png" alt="Rede Social twitter" />
                 </a>
               </li>
+              
             </div>
             <div class="col 1 offset-1 s1">
               <h5 class="white-text">Voltar:</h5>
               <ul>
-                <li>
-                  <a class="grey-text text-lighten-3" href="index.html">Home</a>
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="gastronomia.html"
-                    >Gastronomia</a
-                  >
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="eventos.html"
-                    >Eventos</a
-                  >
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="reservas.html"
-                    >Reservas</a
-                  >
-                </li>
-                <li>
-                  <a class="grey-text text-lighten-3" href="localizacao.html"
-                    >Localização</a
-                  >
-                </li>
+                <li><a class="grey-text text-lighten-3" href="index.html">Home</a></li>
+                <li><a class="grey-text text-lighten-3" href="gastronomia.html">Gastronomia</a></li>
+                <li><a class="grey-text text-lighten-3" href="eventos.html">Eventos</a></li>
+                <li><a class="grey-text text-lighten-3" href="reservas.html">Reservas</a></li>
+                <li><a class="grey-text text-lighten-3" href="localizacao.html">Localização</a></li>
               </ul>
             </div>
           </div>
         </div>
         <div class="footer-copyright">
           <div class="container">
-            © 2020 Copyright
+          © 2020 Copyright
           </div>
         </div>
         <style>
           .page-footer {
-            background-color: rgb(52, 58, 64);
+              background-color:rgb(52, 58, 64)
           }
-        </style>
+      </style>
       </footer>
+          
 
-      <!-- ############ Fim do Footer ############ -->
+    <!-- ############ Fim do Footer ############ -->
     </footer>
 
     <!-- Scripts JS de origem boostrap -->
