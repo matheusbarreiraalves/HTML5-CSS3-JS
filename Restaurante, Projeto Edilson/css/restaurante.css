@@ -74,3 +74,102 @@ h2 {
   color: white;
   text-align: center;
 }
+#texto {
+  color: white;
+  text-align: center;
+}
+
+#container {
+  display: inline-block;
+  border-bottom: 2px solid black;
+  box-shadow: 5px 5px 20px black;
+  margin-bottom: 80px;
+}
+
+#linha {
+  display: table;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#texto1 {
+  padding: 5px;
+  width: 70%;
+  float: left;
+  color: white;
+}
+h3 {
+  font-family: "Jockey+One";
+  margin-left: 0;
+  font-size: 20pt;
+  margin-bottom: 30px;
+  letter-spacing: 2px;
+  text-align: center;
+}
+p {
+  padding-left: 70px;
+  padding-right: 70px;
+  text-align: justify;
+  /* aplicaremos o comando que aumenta oa altura da linha. esse efeito simula o espaçamento entre linhas encontrado no Word. O comando é
+  line-height-> linha hight; */
+  line-height: 30px;
+  margin-bottom: 30px;
+  font-family: "Jockey+One";
+  font-size: 13pt;
+}
+
+#imgLazer2 img {
+  width: 200px;
+  height: 180px;
+  margin: 10px;
+  cursor: pointer;
+  border-radius: 10%;
+}
+
+#imgLazer2 {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  float: left;
+}
+
+#imgLazer2 img:hover {
+  opacity: 80%;
+}
+#mapa {
+  text-align: center;
+}
+/* label color */
+.input-field label {
+  color: white;
+}
+/* label focus color */
+.input-field input[type="text"]:focus + label {
+  color: white;
+}
+/* label underline focus color */
+.input-field input[type="text"]:focus {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+/* valid color */
+.input-field input[type="text"].valid {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+/* invalid color */
+.input-field input[type="text"].invalid {
+  border-bottom: 1px solid white;
+  box-shadow: 0 1px 0 0 white;
+}
+/* icon prefix focus color */
+.input-field .prefix.active {
+  color: white;
+}
+
+#sex_masculino,
+#sex_feminino {
+  margin-left: 120px;
+  position: relative;
+}
